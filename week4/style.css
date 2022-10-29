@@ -1,0 +1,111 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  
+  /* Box sizing rules */
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  /* Remove default margin */
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  p,
+  figure,
+  blockquote,
+  dl,
+  dd {
+    margin: 0;
+  }
+  
+  
+  
+  /* Set core root defaults */
+  html:focus-within {
+    scroll-behavior: smooth;
+  }
+  
+  /* Set core body defaults */
+  body {
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+  }
+  
+  /* A elements that don't have a class get default styles */
+  a:not([class]) {
+    text-decoration-skip-ink: auto;
+  }
+  
+  /* Make images easier to work with */
+  img,
+  picture {
+    max-width: 100%;
+    display: block;
+  }
+  main{
+  padding: 10% 20% ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  /*   border:none */
+    border-radius: 30px;
+  }
+  .flex-item{
+    min-height: 12rem;
+  
+  }
+  .flex-item img,.item-text,h2,p{
+    margin: 2rem;
+    
+  }
+  .flex-card{
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .card-item-1{
+    background-color: #E28525;
+    color:#fff;
+  }
+  .card-item-2{
+    background-color: #016972;
+    color:#fff;
+  }
+  .card-item-3{
+    background-color: #00403F;  
+    color: #fff;
+  }
+  .flex-item-cta-1{
+    margin:3rem 2rem 2rem 2rem;
+    padding: 13px 17px;
+    border:none;
+    background-color: #fff;
+    color:#E28525;
+    border-radius:30px;
+  }
+  .flex-item-cta-2{
+    margin:3rem 2rem 2rem 2rem;
+    padding: 13px 17px;
+    border:none;
+    background-color: #fff;
+    color:#016972;
+    border-radius:30px;
+  }
+  .flex-item-cta-3{
+    margin:3rem 2rem 2rem 2rem;
+    padding: 13px 17px;
+    border:none;
+    background-color: #fff;
+    color: #00403F;
+    border-radius:30px;
+  }
